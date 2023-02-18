@@ -10,17 +10,32 @@
 
 </head>
 <body>
+
     <div class="container">
-    <h1>Titulo 1</h1>
 
-    <p>Parrafo de texto</p>
-    <input type="text" id="campoTexto">
+        <div class="fila">
+    <label for="usuario">Usuario: </label>
+    <input type="text" id="usuario">
+        </div>
 
-    <button onclick="imprimir()">Imprimir Mensaje de Consola</button>
+        <div class="fila">
+    <label for="password">Password:</label>
+    <input type="password" id="password"> <span id="verPsw" onclick="togglePsw"> Ver Password</span>
+        </div>
 
-    <button onclick="Limpiar()">Limpiar campoTexto</button>
+        <div class="fila botones">
+    <button onclick="login()">Iniciar Sesion</button>
+    <button onclick="registro()">Registro</button>
+    </div>
 
 </div>
+
+    <div>
+        <p id="mensaje">
+
+        </p>
+    </div>
+
 </body>
 
 <script src="imprimir.js"></script></script>

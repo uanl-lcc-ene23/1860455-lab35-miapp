@@ -1,12 +1,13 @@
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: aqua;
+    background-color: rgb(172, 204, 204);
 }
 hi, p{
 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
+
 
 button{
 
@@ -21,6 +22,33 @@ button{
 .container{
     width: 50%;
     margin: 0% auto;
+}
+
+.fila{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+@media screen and (min-width: 700px){
+    .botones{
+        width: 20%;
+    }
+}
+
+.botones{
+    width: 100%;
+    
+}
+
+input{
+    background: #ebe3e3;
+    border: none;
+    padding: 12px;
+}
+
+input, label{
+    font-size: 20px;
 }
 
 
