@@ -52,4 +52,8 @@ input, label{
     font-size: 20px;
 }
 
+ion-input {
+    border: solid 1px black;
+    max-width: 250px;
+}
 

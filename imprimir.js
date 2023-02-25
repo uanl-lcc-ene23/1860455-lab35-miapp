@@ -29,3 +29,25 @@ function togglePsw(){
 //cambiar texto del span
 
 }
+
+
+let gastoTXT = document.getElementById("gasto");
+let montoTXT = document.getElementById("monto");
+
+//Arreglo
+let gastos = []; //Arreglo vacio
+
+let mostrarArreglo;
+
+function guardar(){
+    let nuevoGasto = gastoTXT.value + ": $" + montoTXT.value;
+
+    gastos.push(nuevoGasto); //push() agrega nuevo elemento al arreglo
+
+
+    //Opcion 1 imprime arreglo en consola
+    console.log(gastos);
+
+    //Opcion 2 imprime arreglo en pantalla
+    //mostrarArreglo.innerHTML = gastos;
+}
