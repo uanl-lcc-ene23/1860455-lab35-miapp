@@ -1,26 +1,27 @@
-body {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: aqua;
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blanchedalmond;
 }
-hi, p{
+    
 
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-}
-
-button{
-
+button {
     display: block;
-    margin-top: 20px;
-    border: none;
-    background-color: brown;
-    color: white;
-
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px; 
+    background-image: radial-gradient(circle at -8.14% 28.84%, #ffff7c 0, #ffff77 10%, #ffff74 20%, #edf571 30%, #d1e86f 40%, #b4d86c 50%, #99c869 60%, #82b968 70%, #6ead66 80%, #5ca266 90%, #4c9866 100%);
+}
+    ion-title{
+    padding: 0;
+    margin: 0px;
 }
 
-.container{
-    width: 50%;
-    margin: 0% auto;
+input{
+    padding: 0;
+    margin: 10px; 
 }
-
+ion-input{
+    padding: auto;
+    background-color:rgba(180, 211, 71, 0.678);
+}
 

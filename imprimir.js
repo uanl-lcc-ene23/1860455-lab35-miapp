@@ -1,16 +1,22 @@
-//Archivo javascript
+<ion-app>
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Presupuesto</ion-title>
+  </ion-toolbar>
+</ion-header>
 
-var campoTexto = document.getElementById("campoTexto");
+<ion-content class="ion-padding">
+    <ion-label>Monto:</ion-label>
+    <ion-input type="Text" id="Monto"></ion-input>
 
-console.log(campoTexto);
+    <div class="fila">
+        <ion-label>Monto:</ion-label>
+        <ion-input type="Text" id="Monto"></ion-input>
+    </div>
 
-function imprimir(){
-    console.log(campoTexto.value);
-}
-
-
-//Funcion Limpiar valor del Campo de Texto
-function Limpiar(){
-    campoTexto.value="";
-}
-
+    <div class="fila">
+        <ion-button onclick="guardar">Guardar</ion-button>
+    </div>
+   //<h1>Main Content</h1>
+</ion-content>
+</ion-app>
